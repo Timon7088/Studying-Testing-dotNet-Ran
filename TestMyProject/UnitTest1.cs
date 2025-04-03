@@ -42,7 +42,7 @@ namespace TestMyProject
             int num = 0;
             for (int i = 0; i < cards.Length; i++)
             {
-                Assert.IsTrue(num <= cards[i].Number, $"Expected {cards[i].Number} to be greater than {num}, but it was not. lingar");
+                Assert.IsTrue(num <= cards[i].Number, $"Expected {cards[i].Number} to be greater than {num}, but it was not.");
 
                 num = cards[i].Number;
             }

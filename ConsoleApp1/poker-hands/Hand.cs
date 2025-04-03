@@ -18,7 +18,6 @@ namespace StudyingTesting.poker_hands
             {
                 cards[i] = new Card(1, Suit.CLUBS);
             }
-            //...TODO
         }
 
         public Hand()
